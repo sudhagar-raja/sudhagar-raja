@@ -45,11 +45,21 @@ class Sudhagar:
 
         self.fun_fact = "Went from a Diploma in Fashion Designing to Data Science 🎨➡️📊"
 
+    def about_me(self):
+        return """
+        🚀 A curious mind who fell in love with the story hidden inside data.
+        📊 I clean it, question it, visualize it — until it finally talks.
+        🧠 From CNN-LSTMs that catch deepfakes, to datasets built to make
+           networks safer, I like problems that make me think twice.
+        🌱 Still learning, still building, still hungry for the next dataset.
+        """
+
     def motto(self):
-        return "Turn raw data into actionable insights, one dataset at a time."
+        return "Turn raw data into actionable insights, one dataset at a time. 💡"
 
 
 me = Sudhagar()
+print(me.about_me())
 print(me.motto())
 ```
 
